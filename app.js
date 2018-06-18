@@ -21,7 +21,7 @@ bookRouter = require('./Routes/bookRoutes')(Book);
 app.use('/api/books', bookRouter);
 
 app.get('/', function(req, res) {
-    res.send("welcome to hell buddy");
+    res.send("welcome to express study");
 });
 
 app.listen(port, function() {
